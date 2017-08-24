@@ -5,6 +5,7 @@ import (
 
 	"./basics"
 	"./flowcontrol"
+	"./methods"
 	"./moretypes"
 	"./welcome"
 )
@@ -26,5 +27,9 @@ func main() {
 	fmt.Print("-----moretypes------\n")
 	fmt.Print("-----------------\n")
 	moretypes.Out()
+	fmt.Print("-----------------\n")
+	fmt.Print("-----methods------\n")
+	fmt.Print("-----------------\n")
+	methods.Out()
 
 }
