@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"./basics"
+	"./concurrency"
 	"./flowcontrol"
 	"./methods"
 	"./moretypes"
@@ -31,5 +32,8 @@ func main() {
 	fmt.Print("-----methods------\n")
 	fmt.Print("-----------------\n")
 	methods.Out()
-
+	fmt.Print("-----------------\n")
+	fmt.Print("-----concurrency------\n")
+	fmt.Print("-----------------\n")
+	concurrency.Out()
 }
